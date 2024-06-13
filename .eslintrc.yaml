@@ -1,0 +1,15 @@
+root: true
+plugins:
+  - "@typescript-eslint"
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: "latest"
+  project: true
+extends:
+  - "eslint:recommended"
+  - "plugin:@typescript-eslint/strict-type-checked"
+  - "plugin:@typescript-eslint/stylistic-type-checked"
+  - "preact"
+rules:
+  # this rule requires jest being installed
+  "jest/no-deprecated-functions": "off"
