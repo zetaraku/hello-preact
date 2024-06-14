@@ -1,8 +1,10 @@
-export function NotFound() {
+import * as Preact from 'preact';
+
+export const NotFoundPage: Preact.FunctionComponent = () => {
 	return (
 		<section>
-			<h1>404: Not Found</h1>
-			<p>It's gone :(</p>
+			<h1>Not Found</h1>
+			<p>Oops. The page you've requested doesn't exist.</p>
 		</section>
 	);
-}
+};
