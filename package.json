@@ -8,6 +8,7 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
+		"@preact/signals": "^1.2.3",
 		"preact": "^10.20.0",
 		"preact-iso": "^2.6.3"
 	},
