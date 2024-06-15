@@ -1,5 +1,6 @@
 import * as Preact from 'preact';
-import { useTheme, availableThemes, Theme } from '../contexts/ThemeContext';
+import { useTheme } from '../hooks/useTheme';
+import { availableThemes, Theme } from '../shared';
 
 export const ThemeChanger: Preact.FunctionComponent = () => {
 	const { theme, setTheme } = useTheme();

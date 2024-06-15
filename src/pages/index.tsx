@@ -1,6 +1,6 @@
 import * as Preact from 'preact';
-import { MyCounter } from '../components/MyCounter';
-import preactLogo from '../assets/preact.svg';
+import { MyCounter } from '@/modules/util';
+import preactLogo from '@/assets/preact.svg';
 
 export const IndexPage: Preact.FunctionComponent = () => {
 	return (

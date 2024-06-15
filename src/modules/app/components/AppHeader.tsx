@@ -1,5 +1,5 @@
 import * as Preact from 'preact';
-import { ThemeChanger } from './ThemeChanger';
+import { ThemeChanger } from '@/modules/theme';
 
 export const AppHeader: Preact.FunctionComponent<{
 	title: string,

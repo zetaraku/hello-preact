@@ -1,10 +1,10 @@
 import * as Preact from 'preact';
 import * as PreactIso from 'preact-iso';
-import { IndexPage } from './pages';
-import { UsersPage } from './pages/users';
-import { UserPage } from './pages/users/[username]';
+import { IndexPage } from '@/pages';
+import { UsersPage } from '@/pages/users';
+import { UserPage } from '@/pages/users/[username]';
 
-const NotFoundPage = PreactIso.lazy(() => import('./pages/_404').then((m) => m.NotFoundPage));
+const NotFoundPage = PreactIso.lazy(() => import('@/pages/_404').then((m) => m.NotFoundPage));
 
 export const AppRouter: Preact.FunctionComponent = () => {
 	return (

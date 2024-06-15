@@ -1,5 +1,5 @@
 import * as Preact from 'preact';
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme } from '@/modules/theme';
 
 export const AppFooter: Preact.FunctionComponent = () => {
 	const { theme } = useTheme();
