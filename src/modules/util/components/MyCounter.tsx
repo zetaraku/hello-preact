@@ -1,18 +1,29 @@
 import * as Preact from 'preact';
-import * as PreactHooks from 'preact/hooks';
+import * as PreactSignals from '@preact/signals';
 
 export const MyCounter: Preact.FunctionComponent = () => {
-	const [count, setCount] = PreactHooks.useState(0);
+	const count = PreactSignals.useSignal(0);
 
-	const numbers = PreactHooks.useMemo(() => {
-		return [...Array(count).keys()].map((e) => 1 + e).join(', ');
-	}, [count]);
+	const numbers = PreactSignals.useComputed(
+		() => [...Array(count.value).keys()].map((e) => 1 + e).join(', '),
+	);
 
+	PreactSignals.useSignalEffect(() => {
+		if (count.value > 20) {
+			window.alert('Too many!');
+			count.value = 0;
+		}
+	});
+
+	/*
+		If you pass a signal into JSX instead of accessing its .value property in a text position,
+		it will render as text and automatically update in-place without Virtual DOM diffing!
+	*/
 	return (
 		<div>
 			<p>You clicked {count} times!</p>
 			<p>Let's count: {numbers}</p>
-			<button onClick={() => { setCount((prevCount) => prevCount + 1); }}>Click me</button>
+			<button onClick={() => { count.value += 1; }}>Click me</button>
 		</div>
 	);
 };
