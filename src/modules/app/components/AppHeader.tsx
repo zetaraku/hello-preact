@@ -19,6 +19,10 @@ export const AppHeader: Preact.FunctionComponent<{
 				<a href="/users">
 					[Users]
 				</a>
+				{' '}
+				<a href="/tasks">
+					[Tasks]
+				</a>
 			</nav>
 			<hr />
 		</header>
