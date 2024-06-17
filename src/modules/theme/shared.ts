@@ -5,3 +5,5 @@ export const availableThemes = [
 ] as const;
 
 export type Theme = typeof availableThemes[number];
+
+export const defaultTheme: Theme = 'light';
