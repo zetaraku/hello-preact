@@ -23,6 +23,7 @@
 		"eslint-config-preact": "^1.4.0",
 		"eslint-plugin-jest": "^28.6.0",
 		"typescript": "^5.4.5",
-		"vite": "^5.2.2"
+		"vite": "^5.2.2",
+		"vitest": "^1.6.0"
 	}
 }
