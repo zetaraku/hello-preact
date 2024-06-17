@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import * as path from 'node:path';
 import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
@@ -9,5 +10,8 @@ export default defineConfig({
 		alias: {
 			'@': path.resolve(__dirname, './src'),
 		},
+	},
+	test: {
+		environment: 'jsdom',
 	},
 });
