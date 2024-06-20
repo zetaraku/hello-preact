@@ -8,6 +8,7 @@ export const ThemeChanger: Preact.FunctionComponent = () => {
 	return (
 		<select
 			value={theme}
+			data-testid="theme-changer"
 			onChange={(event) => { setTheme(event.currentTarget.value as Theme); }}
 		>
 			{availableThemes.map((theme, i) => (
