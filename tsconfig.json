@@ -18,7 +18,12 @@
 			"react": ["./node_modules/preact/compat/"],
 			"react-dom": ["./node_modules/preact/compat/"],
 			"@/*": ["./src/*"]
-		}
+		},
+
+		"types": [
+			// TypeScript support for In-Source Testing
+			"vitest/importMeta"
+		]
 	},
 	"include": ["node_modules/vite/client.d.ts", "**/*"]
 }
