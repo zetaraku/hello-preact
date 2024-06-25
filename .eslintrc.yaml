@@ -13,3 +13,4 @@ extends:
 rules:
   # this rule requires jest being installed
   "jest/no-deprecated-functions": "off"
+  "@typescript-eslint/consistent-type-definitions": "off"
