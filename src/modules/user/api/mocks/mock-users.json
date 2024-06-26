@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Marvin",
+        "last": "Hudson"
+      },
+      "location": {
+        "street": {
+          "number": 9235,
+          "name": "West Street"
+        },
+        "city": "Lusk",
+        "state": "Galway City",
+        "country": "Ireland",
+        "postcode": 37083,
+        "coordinates": {
+          "latitude": "2.4841",
+          "longitude": "-91.3940"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "marvin.hudson@example.com",
+      "login": {
+        "uuid": "a7bee954-a49b-4955-b24e-55ad175d1cb5",
+        "username": "crazytiger381",
+        "password": "bessie",
+        "salt": "OpKTLwu8",
+        "md5": "0926ba13697b59aab6f1e7134151beb7",
+        "sha1": "9a4a867505d66253111d8ad16f7e8acaa86500a7",
+        "sha256": "f6c0f80698fc5715204959b53baceded8c3a6bb89eb666cca2224423896adfa4"
+      },
+      "dob": {
+        "date": "1963-04-12T22:27:11.409Z",
+        "age": 61
+      },
+      "registered": {
+        "date": "2014-11-17T16:36:53.533Z",
+        "age": 9
+      },
+      "phone": "011-438-1873",
+      "cell": "081-336-4788",
+      "id": {
+        "name": "PPS",
+        "value": "6151869T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/81.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/81.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/81.jpg"
+      },
+      "nat": "IE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Jack",
+        "last": "Lam"
+      },
+      "location": {
+        "street": {
+          "number": 7292,
+          "name": "Concession Road 6"
+        },
+        "city": "Trout Lake",
+        "state": "Nunavut",
+        "country": "Canada",
+        "postcode": "P3M 3A6",
+        "coordinates": {
+          "latitude": "-19.9670",
+          "longitude": "-53.7738"
+        },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "jack.lam@example.com",
+      "login": {
+        "uuid": "a7bdda29-1cbe-4216-b8b5-e8f2ca7cbdc8",
+        "username": "whitedog904",
+        "password": "ladies",
+        "salt": "lVOCUR1W",
+        "md5": "c3daeddcdc4b5adad4d4b51fce2dbabb",
+        "sha1": "845b3531e86c39690ea21ee4a0ba81c7137b3146",
+        "sha256": "095a5b347fab1d94432281005097e89b3d8b328c37be2a90934c0bc8a7d57a8a"
+      },
+      "dob": {
+        "date": "1967-11-16T17:31:05.699Z",
+        "age": 56
+      },
+      "registered": {
+        "date": "2020-09-16T22:03:53.726Z",
+        "age": 3
+      },
+      "phone": "N36 D62-1399",
+      "cell": "P25 B82-2962",
+      "id": {
+        "name": "SIN",
+        "value": "054206933"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/66.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/66.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/66.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Abigail",
+        "last": "Mackay"
+      },
+      "location": {
+        "street": {
+          "number": 5794,
+          "name": "George St"
+        },
+        "city": "Sutton",
+        "state": "Québec",
+        "country": "Canada",
+        "postcode": "V8M 7L0",
+        "coordinates": {
+          "latitude": "76.2871",
+          "longitude": "-113.9071"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "abigail.mackay@example.com",
+      "login": {
+        "uuid": "e6ea8592-a325-4ff9-b80c-44fa3655a17b",
+        "username": "yellowbird658",
+        "password": "cambridg",
+        "salt": "VJlZRPOu",
+        "md5": "9a5a6bd2842c637ebc7a08dbb2a60e04",
+        "sha1": "30af6cdbc0db67079ac979bd0d4024f659aa33d1",
+        "sha256": "0ba133166ab579bb00ecbfd99653cbfb86129fcb4341d05eb7a2453f3af9651d"
+      },
+      "dob": {
+        "date": "1994-11-29T23:25:32.709Z",
+        "age": 29
+      },
+      "registered": {
+        "date": "2021-12-31T10:21:41.677Z",
+        "age": 2
+      },
+      "phone": "N30 O08-4154",
+      "cell": "A25 F52-3568",
+      "id": {
+        "name": "SIN",
+        "value": "207689415"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/87.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/87.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/87.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Parth",
+        "last": "Nand"
+      },
+      "location": {
+        "street": {
+          "number": 1205,
+          "name": "Lamington Rd"
+        },
+        "city": "Thrissur",
+        "state": "Lakshadweep",
+        "country": "India",
+        "postcode": 58204,
+        "coordinates": {
+          "latitude": "-78.4931",
+          "longitude": "134.4755"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "parth.nand@example.com",
+      "login": {
+        "uuid": "c1d6b476-f475-4d28-bb4d-7b3acc8d037b",
+        "username": "redswan177",
+        "password": "florida1",
+        "salt": "8JkV147G",
+        "md5": "41e10873b4cf4abe3a428f70927cb852",
+        "sha1": "61a894c9518c4407e0dfec74ebf3acab8f2601ec",
+        "sha256": "98d8a2f884964678b40be866df6ed8aa21f9f7b6c3b1248c58af5fe86aea8424"
+      },
+      "dob": {
+        "date": "1979-04-11T20:19:50.251Z",
+        "age": 45
+      },
+      "registered": {
+        "date": "2020-05-12T09:04:11.590Z",
+        "age": 4
+      },
+      "phone": "9082385305",
+      "cell": "7080490792",
+      "id": {
+        "name": "UIDAI",
+        "value": "070953255547"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/93.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+      },
+      "nat": "IN"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Alfred",
+        "last": "Clark"
+      },
+      "location": {
+        "street": {
+          "number": 1056,
+          "name": "Mill Lane"
+        },
+        "city": "Newcastle West",
+        "state": "Cavan",
+        "country": "Ireland",
+        "postcode": 60410,
+        "coordinates": {
+          "latitude": "-86.3130",
+          "longitude": "-77.8985"
+        },
+        "timezone": {
+          "offset": "+4:00",
+          "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+        }
+      },
+      "email": "alfred.clark@example.com",
+      "login": {
+        "uuid": "c7a94f84-fcb8-49f4-9f35-2a39841c59a4",
+        "username": "yellowfrog322",
+        "password": "badboy",
+        "salt": "xI6LOzgJ",
+        "md5": "eff0b7e5367ccd645f6388b1c1c1e867",
+        "sha1": "bcb54d9678aee040d054a0144e2c0d433b6f428f",
+        "sha256": "44593c39f0c42eb75506a9b4ce544852f274a189676dcc770b4b209c7f0e88a8"
+      },
+      "dob": {
+        "date": "1948-10-15T11:33:37.657Z",
+        "age": 75
+      },
+      "registered": {
+        "date": "2022-01-04T11:56:26.080Z",
+        "age": 2
+      },
+      "phone": "051-950-1837",
+      "cell": "081-475-6727",
+      "id": {
+        "name": "PPS",
+        "value": "6352283T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/77.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/77.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/77.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "hello-msw",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}
