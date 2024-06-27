@@ -1,4 +1,6 @@
-# `create-preact`
+# hello-preact
+
+[![Node.js CI](https://github.com/zetaraku/hello-preact/actions/workflows/nodejs-ci.yaml/badge.svg)](https://github.com/zetaraku/hello-preact/actions/workflows/nodejs-ci.yaml) [![Deploy to Netlify](https://github.com/zetaraku/hello-preact/actions/workflows/netlify-cd.yaml/badge.svg)](https://github.com/zetaraku/hello-preact/actions/workflows/netlify-cd.yaml)
 
 <h2 align="center">
   <img height="256" width="256" src="./src/assets/preact.svg">
