@@ -1,6 +1,7 @@
 root: true
 plugins:
   - "@typescript-eslint"
+  - "@tanstack/query"
 parser: "@typescript-eslint/parser"
 parserOptions:
   ecmaVersion: "latest"
@@ -9,6 +10,7 @@ extends:
   - "eslint:recommended"
   - "plugin:@typescript-eslint/strict-type-checked"
   - "plugin:@typescript-eslint/stylistic-type-checked"
+  - "plugin:@tanstack/eslint-plugin-query/recommended"
   - "preact"
 rules:
   # this rule requires jest being installed
