@@ -1,11 +1,10 @@
 import * as Preact from 'preact';
-import * as PreactIso from 'preact-iso';
 import { useUser } from '@/modules/user';
+import { useParam } from '@/modules/util';
 
 export const UserPage: Preact.FunctionComponent = () => {
-	const route = PreactIso.useRoute();
-	const username = route.params['username'];
-	const { user } = useUser(username ?? '');
+	const username = useParam('username');
+	const { user } = useUser(username);
 
 	return (
 		<div>
