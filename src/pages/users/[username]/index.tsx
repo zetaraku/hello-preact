@@ -4,14 +4,14 @@ import { useParam } from '@/modules/util';
 
 export const UserPage: Preact.FunctionComponent = () => {
 	const username = useParam('username');
-	const { user } = useUser(username);
+	const { data: user, isPending, isError } = useUser(username);
 
 	return (
 		<div>
 			<h1>User</h1>
-			{user === undefined ? (
+			{isError ? (
 				<p>Error when loading user with username <code>{username}</code>.</p>
-			) : user === null ? (
+			) : isPending ? (
 				<i>Loading user...</i>
 			) : (
 				<div>

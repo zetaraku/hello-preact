@@ -2,14 +2,14 @@ import * as Preact from 'preact';
 import { useUsers } from '@/modules/user';
 
 export const UsersPage: Preact.FunctionComponent = () => {
-	const { users } = useUsers();
+	const { data: users, isPending, isError } = useUsers();
 
 	return (
 		<div>
 			<h1>All Users</h1>
-			{users === undefined ? (
+			{isError ? (
 				<p>Error when loading users.</p>
-			) : users === null ? (
+			) : isPending ? (
 				<i>Loading users...</i>
 			) : (
 				<ul>

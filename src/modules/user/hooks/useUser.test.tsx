@@ -25,13 +25,14 @@ describe('useUser()', () => {
 		});
 
 		await waitFor(() => {
-			expect(r.result.current.user).not.toBe(null);
-			expect(r.result.current.user).toMatchObject({ username: 'dummy', name: 'Dummy' });
+			expect(r.result.current.isSuccess).toBe(true);
+			expect(r.result.current.data).toMatchObject({ username: 'dummy', name: 'Dummy' });
 		});
 	});
 
-	it('should return undefined on error', async () => {
-		vi.mocked(getUser).mockRejectedValueOnce(new Error('Failed to fetch.'));
+	it('should be able to see error', async () => {
+		const error = new Error('Failed to fetch.');
+		vi.mocked(getUser).mockRejectedValueOnce(error);
 
 		const r = renderHook(() => useUser('dummy'), {
 			wrapper: ({ children }) => (
@@ -42,8 +43,8 @@ describe('useUser()', () => {
 		});
 
 		await waitFor(() => {
-			expect(r.result.current.user).not.toBe(null);
-			expect(r.result.current.user).toBe(undefined);
+			expect(r.result.current.isError).toBe(true);
+			expect(r.result.current.error).toBe(error);
 		});
 	});
 });
