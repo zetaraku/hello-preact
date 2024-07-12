@@ -1,11 +1,16 @@
-import { useAsyncData } from '@/modules/util';
+import * as ReactQuery from '@tanstack/react-query';
 import { getUser } from '../api';
-import { User } from '../shared';
 
 export function useUser(username: string) {
-	const { data: user } = useAsyncData<User>(
-		async () => await getUser(username),
-		[username],
+	const userQuery = ReactQuery.useQuery({
+		queryKey: ['user', username],
+		queryFn: async () => await getUser(username),
+	});
+
+	const user = (
+		userQuery.isPending ? null
+		: userQuery.isError ? undefined
+		: userQuery.data
 	);
 
 	return {
