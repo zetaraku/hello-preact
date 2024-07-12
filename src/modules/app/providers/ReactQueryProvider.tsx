@@ -5,6 +5,7 @@ import * as ReactQuery from '@tanstack/react-query';
 const queryClientConfig: ReactQuery.QueryClientConfig = {
 	defaultOptions: {
 		queries: {
+			retry: false,
 			refetchOnWindowFocus: false,
 		},
 	},
