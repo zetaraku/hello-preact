@@ -33,4 +33,20 @@ describe('useTheme()', () => {
 
 		expect(r.result.current.theme).toBe('light');
 	});
+
+	it('shouldn\'t be able to change the theme if <ThemeProvider /> is not present', async () => {
+		const r = renderHook(() => useTheme(), {
+			wrapper: ({ children }) => (
+				<>{children}</>
+			),
+		});
+
+		expect(r.result.current.theme).toBe('light');
+
+		await act(() => {
+			r.result.current.setTheme('dark');
+		});
+
+		expect(r.result.current.theme).toBe('light');
+	});
 });
